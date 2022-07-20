@@ -38,12 +38,14 @@ dependencies:
   #for bloc
   bloc: ^8.0.2
   flutter_bloc: ^8.0.0
+  equatable: ^2.0.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   bloc_test: ^9.0.2
   mocktail: ^0.2.0
+  
   integration_test:
     sdk: flutter
 

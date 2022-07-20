@@ -3,22 +3,16 @@
 A new Flutter project.
 
 ## Getting Started
+## Nội dung chính:
++ Quan sát các thay đổi trạng thái với BlocObserver.
++ BlocProvider: Flutter Widget cung cấp một bloc cho các con của nó.
++ BlocBuilder: Flutter Widget xử lý việc xây dựng widget để đáp ứng với các trạng thái mới.
++ Ngăn chặn những widget được reBuilds với Equatable.
++ Học cách sử dụng StreamSubcription trong Bloc.
++ Ngăn chặn rebuilds với buildWhen.
 
 ## Kiến trúc của dự án:
 
-├── lib
-│   ├── app.dart
-│   ├── counter
-│   │   ├── counter.dart
-│   │   ├── cubit
-│   │   │   └── counter_cubit.dart
-│   │   └── view
-│   │       ├── counter_page.dart
-│   │       └── counter_view.dart
-│   ├── counter_observer.dart
-│   └── main.dart
-├── pubspec.lock
-├── pubspec.yaml
 
 - Đầu tiên, ta tạo một BlocObserver nhằm mục đích quan sát tất cả các thay dổi trạng thái của ứng dụng.
 - Bước 2: trở lại main.dart để thay đổi void main(), sử dụng BlocOverrides.runZoned()
